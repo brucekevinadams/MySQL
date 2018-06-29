@@ -1,3 +1,10 @@
+/*
+ * Author: Bruce Adams
+ * email: ezaroth@gmail.com
+ * website: austingamestudios.com
+ * 
+*/
+
 SELECT temp2.I, temp2.A, temp2.WNN, temp2.P FROM (SELECT MIN(W1.COINS_NEEDED) AS WN, WP1.AGE as AG, W1.POWER AS PW FROM WANDS W1 INNER JOIN WANDS_PROPERTY WP1 ON W1.CODE=WP1.CODE 
  GROUP BY W1.POWER, WP1.AGE ORDER BY W1.POWER DESC, WP1.AGE DESC) temp1
 INNER JOIN
