@@ -1,3 +1,10 @@
+/*
+ * Author: Bruce Adams
+ * email: ezaroth@gmail.com
+ * website: austingamestudios.com
+ * 
+*/
+
 SELECT h.hacker_id, h.name, SUM(score) FROM (
     SELECT hacker_id, challenge_id, MAX(score) AS score FROM SUBMISSIONS
     GROUP BY hacker_id, challenge_id
