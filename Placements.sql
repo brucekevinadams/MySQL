@@ -1,3 +1,10 @@
+/*
+ * Author: Bruce Adams
+ * email: ezaroth@gmail.com
+ * website: austingamestudios.com
+ * 
+*/
+
 select s.name
 from students s
 join friends f
