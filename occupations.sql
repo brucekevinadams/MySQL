@@ -1,3 +1,10 @@
+/*
+ * Author: Bruce Adams
+ * email: ezaroth@gmail.com
+ * website: austingamestudios.com
+ * 
+*/
+
 set @r1=0, @r2=0, @r3=0, @r4=0;
 select min(Doctor), min(Professor), min(Singer), min(Actor)
 from(
