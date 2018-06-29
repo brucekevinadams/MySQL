@@ -1,3 +1,10 @@
+/*
+ * Author: Bruce Adams
+ * email: ezaroth@gmail.com
+ * website: austingamestudios.com
+ * 
+*/
+
 SELECT s.hacker_id, h.name
 FROM Submissions s
 JOIN Challenges c
