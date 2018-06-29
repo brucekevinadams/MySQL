@@ -1,3 +1,10 @@
+/*
+ * Author: Bruce Adams
+ * email: ezaroth@gmail.com
+ * website: austingamestudios.com
+ * 
+*/
+
 select x, y from functions f1 
     where exists(select * from functions f2 where f2.y=f1.x 
     and f2.x=f1.y and f2.x>f1.x) and (x!=y) 
