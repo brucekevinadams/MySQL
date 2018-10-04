@@ -1,6 +1,7 @@
-/*
-Enter your query here.
-*/
+--Author: Bruce Adams
+--www.austingamestudios.com
+--Hackerrank MySQL problem
+
 select case
 when A+B <= C or A+C <= B or B+C <= A then "Not A Triangle"
 when A=B and B=C then "Equilateral"
